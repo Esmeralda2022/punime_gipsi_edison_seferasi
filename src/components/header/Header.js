@@ -1,11 +1,9 @@
 import React from 'react';
 
 import Social from '../social/Social';
-import  Gips from '../../foto/gips.jpg';
 import {RiWhatsappLine} from 'react-icons/ri';
 import { Container, Row, Col } from 'react-bootstrap';
 import ReactWhatsapp from 'react-whatsapp';
-import Button from 'react-bootstrap/Button';
 
 function Header() {
   return (
