@@ -2,8 +2,6 @@ import React from 'react';
 import {FaAward} from 'react-icons/fa';
 import {FaUsers} from 'react-icons/fa';
 import { Container, Row, Col, Carousel, Card } from 'react-bootstrap';
-import gips from '../../foto/gips.jpg';
-import wall1 from '../../foto/wall1.jpg';
 import edi1 from '../../foto/edi1.jpeg';
 import edi2 from '../../foto/edi2.jpeg';
 import edi3 from '../../foto/edi3.jpeg';
