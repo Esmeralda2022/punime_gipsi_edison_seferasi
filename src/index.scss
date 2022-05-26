@@ -33,7 +33,7 @@ a{
     background-repeat: no-repeat;
 }
 
-@media screen and(max-width: 768px){
+@media screen and(max-width: 900px){
     .container_header{
         height: 100vh;
         padding-top: 7rem;
@@ -108,7 +108,7 @@ nav{
     color: $color-white;
 }
 
-@media screen and(max-width: 768px){
+@media screen and(max-width: 900px){
     .header3, .header1, .header31{
         color:#fafffa;
     }
