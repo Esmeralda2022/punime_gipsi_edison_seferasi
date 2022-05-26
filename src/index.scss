@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+$color-bg: #F5F5F5; 
+$color-bg-variant:rgb(70, 70, 124);
+$color-primary: rgb(59, 164, 202);
+$color-primary-variant:rgb(27, 131, 131);
+$color-white: white;
+$color-light:rgba(255, 255, 255, 0.819);
+$color-blue:blue;
+$container-width-lg: 75%;
+$container-width-md: 86%;
+$container-width-sm: 90%;
+$transition: all 400ms ease;  
+
+
+
+a{
+    color: $color-primary;
+    transition: var($transition);
+   
+     :hover{
+         color:var($color-white);
+     }
+}
+
+.container_header{
+    height: 100vh;
+    padding-top: 7rem;
+    background-image: url('../src/foto/gips.jpg');
+    background-repeat: no-repeat;
+}
+
+@media screen and(max-width: 768px){
+    .container_header{
+        height: 100vh;
+        padding-top: 7rem;
+        background-image: url('../src/foto/gips.jpg');
+        background-repeat: no-repeat;
+        h3{
+            text-align: center;
+            font-size: 18px;
+        
+        } 
+        h1{
+            text-align: center;
+            font-size: 24px;
+        }
+
+    }
+
+
+}
+
+/*============header socials================*/
+
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 2rem;
+    bottom: 3rem;
+
+}
+
+  /*================*/
+
+
+
+
+
+/*==========nav==========*/
+
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    a{
+        background: transparent;
+        padding: 0.9rem;
+        border-radius: 50%;
+        display: flex;
+        color: var($color-light);
+        font-size: 1.1rem;
+        .active{
+            background: var($color-bg);
+            color:var($color-white) ;
+        }
+    } 
+}
+
+.container_contact{
+    background-color: rgb(168, 162, 162);
+    color: $color-white;
+}
+
+@media screen and(max-width: 768px){
+    .header3, .header1, .header31{
+        color:#fafffa;
+    }
+}
+
