@@ -4,7 +4,7 @@ import{BiUser}  from 'react-icons/bi';
 import{TiMessages} from 'react-icons/ti';
 
 function Nav() {
-  const [activeNav, setActiveNav] = useState('');
+  
   return (
     <nav>
       <a href='#'><AiOutlineHome/></a>
