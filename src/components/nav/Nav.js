@@ -7,7 +7,7 @@ function Nav() {
   
   return (
     <nav>
-      <a href='#home'><AiOutlineHome/></a>
+      <a href='#'><AiOutlineHome/></a>
       <a href='#about' ><BiUser/></a>
       <a href='#contact'><TiMessages/></a>
     </nav>
