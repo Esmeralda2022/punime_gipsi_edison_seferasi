@@ -10,7 +10,7 @@ function Header() {
     <Container fluid className='container_header' >
       <Row>
         <Col lg={3} md={4} ></Col>
-         <Col ><h3 className='header3' id='#home'>Punime te ndryshme me gips, lyerje, patinim. </h3></Col>
+         <Col ><h3 className='header3' id='#'>Punime te ndryshme me gips, lyerje, patinim. </h3></Col>
          <Col lg={3} md={4}></Col>
       </Row>
       <Row>
