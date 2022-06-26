@@ -15,7 +15,7 @@ function Contact() {
           <Col lg ={4} md ={4}> Follow Me
               <Row>
                  <Col></Col>
-                 <Col lg ={6} md={6} ><a href='https://www.instagram.com/?hl=en'  className='btn btn-outline-light'> <BsInstagram/> </a></Col>
+                 <Col lg ={6} md={6} ><a href='https://www.instagram.com/accounts/login/?next=/gips.work.s.b/'  className='btn btn-outline-light'> <BsInstagram/> </a></Col>
                  <Col></Col>
                  <Col lg= {4} md={6}></Col>
               </Row>
