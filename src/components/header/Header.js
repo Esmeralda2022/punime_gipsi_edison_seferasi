@@ -8,9 +8,9 @@ import ReactWhatsapp from 'react-whatsapp';
 function Header() {
   return (
     <Container fluid className='container_header' >
-      <Row>
+      <Row id='#home'>
         <Col lg={3} md={4} ></Col>
-         <Col ><h3 className='header3' id='#home'>Punime te ndryshme me gips, lyerje, patinim. </h3></Col>
+         <Col ><h3 className='header3'>Punime te ndryshme me gips, lyerje, patinim. </h3></Col>
          <Col lg={3} md={4}></Col>
       </Row>
       <Row>
